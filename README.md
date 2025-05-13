@@ -68,13 +68,14 @@ MIPS_Pipelined_WithHazards/
 *Blue = data paths* | *Orange = control & stall/forward signals*
 
 ### Pipelined Datapath  
-![Datapath](img/Screenshot%202025-05-13%20182929.png)
+![Datapath](img/datapath.png)
 
 ### Forwarding Unit Hardware  
-![Forwarding Unit](img/Screenshot%202025-05-13%20182935.png)
+![Forwarding Unit](img/forwarding.png)
 
 ### Hazard Detection Unit  
-![Hazard Unit](img/Screenshot%202025-05-13%20182945.png)
+![Hazard Unit](img/hazard_unit.png)
 
 ### Hazards & Solutions Summary  
-![Summary](img/Screenshot%202025-05-13%20183018.png)
+![Summary](img/summary.png)
+
