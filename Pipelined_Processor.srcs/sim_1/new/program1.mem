@@ -1,0 +1,28 @@
+014B4820  // I1  - add   $t1, $t2, $t3      // $t1 = $t2 + $t3
+018C6024  // I3  - and   $t4, $t4, $t4      // $t4 = $t4 & $t4
+012A5822  // I2  - sub   $t3, $t1, $t2      // $t3 = $t1 - $t2
+
+00118802  // I6  - srl   $s1, $t0, 2        // $s1 = $t0 >> 2
+01D07025  // I4  - or    $t6, $t6, $s0      // $t6 = $t6 | $s0
+0211782A  // I5  - slt   $t7, $s0, $s1      // $t7 = ($s0 < $s1)
+
+8D0C0000  // I7  - lw    $t4, 0($t0)        // $t4 = MEM[$t0 + 0]
+//00000000  // NOP 
+AD0C0004  // I8  - sw    $t4, 4($t0)        // MEM[$t0 + 4] = $t4
+
+2D0D0005  // I9  - sltiu $t5, $t0, 5        // $t5 = ($t0 < 5) ? 1 : 0
+950E0002  // I10 - lhu   $t6, 2($t0)        // $t6 = zero_extend(MEM[$t0 + 2])
+
+12550002  // I11 - beq   $s2, $s3, LABEL    // if ($s2 == $s3) branch +2
+//00000000  // NOP - delay slot
+
+1672FFFC  // I12 - bne   $s3, $s2, LABEL2   // if ($s3 != $s2) branch -4
+//00000000  // NOP - delay slot
+
+08000010  // I13 - j     TARGET             // Jump to address 0x40 (inst 16)
+0C000011  // I14 - jal   FUNC               // $ra = PC+4; jump to FUNC (inst 17)
+
+01AD5820  // LABEL:  add  $t3, $t5, $t5     // $t3 = $t5 + $t5
+01CE6022  // LABEL2: sub  $t4, $t6, $t6     // $t4 = $t6 - $t6
+01EF7025  // TARGET: or   $t6, $t7, $t7     // $t6 = $t7 | $t7
+0307C824  // FUNC:   and  $t9, $t8, $t7     // $t9 = $t8 & $t7

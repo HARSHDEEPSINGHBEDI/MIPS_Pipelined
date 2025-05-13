@@ -1,0 +1,235 @@
+Time resolution is 1 ps
+
+==== Pipelined MIPS Processor Simulation Start ====
+
+Loaded Instructions:
+  IMEM[0] = 0x014b4820
+  IMEM[1] = 0x018c6024
+  IMEM[2] = 0x012a5822
+  IMEM[3] = 0x00118802
+  IMEM[4] = 0x01d07025
+  IMEM[5] = 0x0211782a
+  IMEM[6] = 0x8d0c0000
+  IMEM[7] = 0xad0c0004
+  IMEM[8] = 0x2d0d0005
+  IMEM[9] = 0x950e0002
+  IMEM[10] = 0x12550002
+  IMEM[11] = 0x1672fffc
+  IMEM[12] = 0x08000010
+  IMEM[13] = 0x0c000011
+
+T = 25000 ns | PC = 0x00000000 | IF Instr = 0x014b4820
+  $t0=5  $t1=3  $t2=0  $t3=99
+  $t4=7  $t5=2  $t6=1  $ra=0
+
+T = 35000 ns | PC = 0x00000004 | IF Instr = 0x018c6024
+  $t0=5  $t1=3  $t2=0  $t3=99
+  $t4=7  $t5=2  $t6=1  $ra=0
+
+T = 45000 ns | PC = 0x00000008 | IF Instr = 0x012a5822
+  $t0=5  $t1=3  $t2=0  $t3=99
+  $t4=7  $t5=2  $t6=1  $ra=0
+
+T = 55000 ns | PC = 0x0000000c | IF Instr = 0x00118802
+  $t0=5  $t1=3  $t2=0  $t3=99
+  $t4=7  $t5=2  $t6=1  $ra=0
+
+T = 65000 ns | PC = 0x00000010 | IF Instr = 0x01d07025
+  $t0=5  $t1=3735928559  $t2=0  $t3=99
+  $t4=7  $t5=2  $t6=1  $ra=0
+
+T = 75000 ns | PC = 0x00000014 | IF Instr = 0x0211782a
+  $t0=5  $t1=3735928559  $t2=0  $t3=99
+  $t4=99  $t5=2  $t6=1  $ra=0
+
+T = 85000 ns | PC = 0x00000018 | IF Instr = 0x8d0c0000
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=99  $t5=2  $t6=1  $ra=0
+
+T = 95000 ns | PC = 0x0000001c | IF Instr = 0xad0c0004
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=99  $t5=2  $t6=1  $ra=0
+
+T = 105000 ns | PC = 0x00000020 | IF Instr = 0x2d0d0005
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=99  $t5=2  $t6=x  $ra=0
+
+T = 115000 ns | PC = 0x00000020 | IF Instr = 0x2d0d0005
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=99  $t5=2  $t6=x  $ra=0
+
+T = 125000 ns | PC = 0x00000024 | IF Instr = 0x950e0002
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=X  $t5=2  $t6=x  $ra=0
+
+T = 135000 ns | PC = 0x00000028 | IF Instr = 0x12550002
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=2  $t6=x  $ra=0
+
+T = 145000 ns | PC = 0x0000002c | IF Instr = 0x1672fffc
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=2  $t6=x  $ra=0
+
+T = 155000 ns | PC = 0x00000030 | IF Instr = 0x08000010
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=x  $ra=0
+
+T = 165000 ns | PC = 0x00000034 | IF Instr = 0x0c000011
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 175000 ns | PC = 0x000000Xc | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 185000 ns | PC = 0x00000070 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 195000 ns | PC = 0x00000040 | IF Instr = 0x01ef7025
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 205000 ns | PC = 0x00000044 | IF Instr = 0x0307c824
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 215000 ns | PC = 0x00000048 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 225000 ns | PC = 0x0000004c | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 235000 ns | PC = 0x00000050 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 245000 ns | PC = 0x00000054 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 255000 ns | PC = 0x00000058 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 265000 ns | PC = 0x0000005c | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 275000 ns | PC = 0x00000060 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 285000 ns | PC = 0x00000064 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 295000 ns | PC = 0x00000068 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 305000 ns | PC = 0x0000006c | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 315000 ns | PC = 0x00000070 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 325000 ns | PC = 0x00000074 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 335000 ns | PC = 0x00000078 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 345000 ns | PC = 0x0000007c | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 355000 ns | PC = 0x00000080 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 365000 ns | PC = 0x00000084 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 375000 ns | PC = 0x00000088 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 385000 ns | PC = 0x0000008c | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 395000 ns | PC = 0x00000090 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 405000 ns | PC = 0x00000094 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 415000 ns | PC = 0x00000098 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 425000 ns | PC = 0x0000009c | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 435000 ns | PC = 0x000000a0 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 445000 ns | PC = 0x000000a4 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 455000 ns | PC = 0x000000a8 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 465000 ns | PC = 0x000000ac | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 475000 ns | PC = 0x000000b0 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 485000 ns | PC = 0x000000b4 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 495000 ns | PC = 0x000000b8 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 505000 ns | PC = 0x000000bc | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+T = 515000 ns | PC = 0x000000c0 | IF Instr = 0xxxxxxxxx
+  $t0=5  $t1=3735928559  $t2=0  $t3=0
+  $t4=0  $t5=3735928559  $t6=0  $ra=0
+
+==== Final Data Memory State ====
+   MEM[0] = 0x0000abcd
+   MEM[1] = 0xdeadbeef
+   MEM[2] = 0xcafebabe
+   MEM[3] = 0x12345678
+   MEM[4] = 0x87654321
+   MEM[5] = 0x0000000f
+   MEM[6] = 0xffffffff
+   MEM[7] = 0x00000abc
+   MEM[8] = 0x12312312
+   MEM[9] = 0xdededede
+
+==== Simulation Complete ====
+
+$finish called at time : 515 ns : File "D:/Vivado-25/Pipelined_Processor/Pipelined_Processor.srcs/sim_1/new/pipelined.tb" Line 85

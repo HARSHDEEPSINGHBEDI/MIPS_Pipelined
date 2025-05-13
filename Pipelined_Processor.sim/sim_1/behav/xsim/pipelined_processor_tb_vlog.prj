@@ -1,0 +1,37 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Pipelined_Processor.srcs/sources_1/new/Forwarding_unit.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/HazradDetectionUnit.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/adder.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/alu_bj.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/alu_control.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/alusrc_mux.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/branch_comparator.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/branch_target_adder.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/control_unit.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/datamem.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/ex_mem_reg.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/fa.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/fb.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/id_ex_reg.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/if_id_reg.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/instr_mem.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/main_alu.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/mem_wb_reg.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/mux_br_sel.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/mux_jump_sel.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/mux_memtoreg.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/mux_regdst.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/pc.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/pipelined_processor.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/reg_file.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/shift_left2_j.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/shiftleft2.v" \
+"../../../../Pipelined_Processor.srcs/sources_1/new/sign_ext.v" \
+"../../../../Pipelined_Processor.srcs/sim_1/new/pipelined.tb" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
