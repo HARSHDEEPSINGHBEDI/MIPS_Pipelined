@@ -62,6 +62,7 @@ MIPS_Pipelined_WithHazards/
 │   ├── pipelined_processor_tb.v  # Testbench & waveform logger
 │   └── program1.mem              # 17 instruction hex words
 └── README.md
+```
 
 ## 🖼️ Datapath & Hazard-Resolution Units
 
